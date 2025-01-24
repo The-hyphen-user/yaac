@@ -1,0 +1,30 @@
+{
+  "name": "yaac",
+  "version": "1.0.0",
+  "description": "Yet Another AI CLI - Generate project layout and function documentation for AI",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "yaac": "src/index.js"
+  },
+  "keywords": [
+    "yaac",
+    "cursor",
+    "cli",
+    "ai",
+    "prompting",
+    "layout",
+    "functions",
+    "yet another ai",
+    "yet another ai cli"
+  ],
+  "author": "the-hyphen-user, Daniel W",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/parser": "^7.26.5",
+    "@babel/traverse": "^7.26.5",
+    "chokidar": "^4.0.3",
+    "commander": "^13.1.0",
+    "glob": "^11.0.1"
+  }
+}
